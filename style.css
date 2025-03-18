@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.navegation {
+    list-style: none;
+    display: flex;
+    padding: 0px;
+}
+
+.navegation li {
+    margin: 0;
+}
+
+.navegation a {
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border-bottom: 1px solid #dedede;
+    border-top: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+    text-decoration: none;
+    color: #000000;
+}
+
+.navegation li:first-of-type a {
+    border-left: 1px solid #dedede;
+  }
+
+  .navegation a:hover {
+    background-color: rgba(184, 184, 184, 0.877);
+    cursor: pointer;
+}
+
+.navegation a:hover {
+    color: blue;
+}
+
+.navegation2 {
+    background-color: rgb(102, 14, 102);
+}
+
+.navegation3 {
+    background-color: rgb(102, 14, 21);
+}
+
+.navegation4 {
+    background-color: rgb(2, 61, 20);
+}
